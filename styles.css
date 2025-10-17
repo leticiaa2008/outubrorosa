@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 body {
+    display: flex;
     font-family: 'Prociono', serif;
     min-height: 100vh;
-    background-color: #FF9DD3;
+    background: #FF9DD3;
     margin: unset;
+    justify-content: center;
 }
 
 nav {
@@ -37,7 +39,7 @@ nav {
 }
 
 .divsinistramentesinistra{
-    height: 75vh;
+    height: 500px;
     width: 100%;
     background: linear-gradient(180deg, #ffffff 0%, #F9E1EB 100%);
     margin-top: -20px;
@@ -55,7 +57,6 @@ nav {
     display: flex;
     align-items: top;
     justify-content: center;
-
 }
 
 .divpratudosinistro{
@@ -66,12 +67,25 @@ nav {
 }
 
 .imglacocancer{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: auto;
+    max-width: 400px;
 }
 
 .imgpessoa{
-    margin-top: 10vh;
+    position: absolute;
+    width: 350px;
+    height: 330px;
+    top: -15px;
+    right: 30px;
+}
+
+.divpraimagem{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
 }
 
 .divjuntamaisquetudo{
@@ -81,10 +95,53 @@ nav {
 
 .divparatexto{
     display: flex;
-    align-items: center;
-
+    align-items: left;
+    justify-content: top;
+    flex-direction: column;
+    margin-left: -70px;
 }
 
 .h1testesinistro{
     font-family: 'Poppins', sans-serif;                                       
+}
+
+.divpreenchida{
+    position: relative;
+    margin: 0 auto;
+    background: white;
+    height: 200px;
+    width: 70%;
+    z-index: 2;
+    border-radius: 30px;
+    margin-top: -20px;
+}
+
+.divpradivpreenchida{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.configtitulo{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;                                       
+    font-weight: bold;
+    color: #C8477E;
+    line-height: 1em;
+    margin-top: 50px;
+}
+
+
+.textosubtitulo {
+    margin-top: -40px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #C8477E;
+    font-weight: bold;
+}
+
+.textoinfo {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #C8477E;
+    margin-top: -20px;
 }
